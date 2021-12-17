@@ -1,0 +1,37 @@
+78.	Surat An Naba, Jumlah Ayat: 40
+79.	Surat An Naziat, Jumlah Ayat: 46
+80.	Surat Abasa, Jumlah Ayat: 42
+81.	Surat At Takwir, Jumlah Ayat: 29
+82.	Surat Al Infitar, Jumlah Ayat: 19
+83.	Surat Al Tatfif, Jumlah Ayat: 36
+84.	Surat Al Insyiqaq, Jumlah Ayat: 25
+85.	Surat Al Buruj, Jumlah Ayat: 22
+86.	Surat At Tariq, Jumlah Ayat: 17
+87.	Surat Al Ala, Jumlah Ayat: 19
+88.	Surat Al Gasyiyah, Jumlah Ayat: 26
+89.	Surat Al Fajr, Jumlah Ayat: 30
+90.	Surat Al Balad, Jumlah Ayat: 20
+91.	Surat Asy Syams, Jumlah Ayat: 15
+92.	Surat Al Lail, Jumlah Ayat: 21
+93.	Surat Ad Duha, Jumlah Ayat: 11
+94.	Surat Al Insyirah, Jumlah Ayat: 8
+95.	Surat At Tin, Jumlah Ayat: 8
+96.	Surat Al Alaq, Jumlah Ayat: 19
+97.	Surat Al Qadr, Jumlah Ayat: 5
+98.	Surat Al Bayyinah, Jumlah Ayat: 8
+99.	Surat Az Zalzalah, Jumlah Ayat: 8
+100.	Surat Al Adiyat, Jumlah Ayat: 11
+101.	Surat Al Qariah, Jumlah Ayat: 11
+102.	Surat At Takasur, Jumlah Ayat: 8
+103.	Surat Al Asr, Jumlah Ayat: 3
+104.	Surat Al Humazah, Jumlah Ayat: 9
+105.	Surat Al Fil, Jumlah Ayat: 5
+106.	Surat Quraisy, Jumlah Ayat: 4
+107.	Surat Al Maun, Jumlah Ayat: 7
+108.	Surat Al Kausar, Jumlah Ayat: 3
+109.	Surat Al Kafirun, Jumlah Ayat: 6
+110.	Surat An Nasr, Jumlah Ayat: 3
+111.	Surat Al Lahab, Jumlah Ayat: 5
+112.	Surat Al Ikhlas, Jumlah Ayat: 4
+113.	Surat Al Falaq, Jumlah Ayat: 5
+114.	Surat An Nas, Jumlah Ayat: 6
