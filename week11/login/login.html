@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .container{
+            padding: 200px 20px 100px;
+            width: 300px;
+        }
+        .login{
+            padding: 50px 10px 50px;
+            border-radius: 6px;
+            background-color: rgb(11, 187, 163);
+        }
+        .nama{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .passwd{
+            margin-top: 10px;
+        }
+        .submit{
+            margin-top: 10px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <div class="login">
+                <form id="form" onsubmit="kirim()">
+                    <label for="username">Username</label><br>
+                    <input type="text" name="" id="username" class="nama"><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="" id="password" class="passwd"><br>
+                    <button type="submit" class="submit">Sign In</button>
+                </form>
+            </div>
+        </div>
+    </center>
+    <script>
+
+        function kirim() {
+            let input = document.getElementById("username").value
+            let password = document.getElementById("password").value
+            let form = document.getElementById("form")
+
+
+
+            if (input == "arif21039ti" && password == "bismillah") {
+                form.setAttribute('action', 'dashboard.html')
+                window.alert("Login Berhasil")
+
+            } else {
+                window.alert("Login Gagal")
+            }
+
+        }
+    </script>
+</body>
+
+</html>
