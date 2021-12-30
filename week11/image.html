@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <style>
+        .hasil {
+            width: 40%;
+            height: 40%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <select name="" id="pilihan" onchange="gambar()">
+        <option value="" id="">Pilih ... </option>
+        <option value="monyet">Monyet</option>
+        <option value="singa">Singa</option>
+        <option value="anjing">Anjing</option>
+        <option value="kucing">Kucing</option>
+        <option value="kura_kura">Kura-Kura</option>
+    </select>
+
+    <br><br>
+
+    <div id="hasil">
+
+    </div>
+
+    <script>
+        function gambar() {
+            let pilih
+            pilih = document.getElementById("pilihan").value
+
+            if (pilih == "monyet") {
+                let gmbr = document.getElementById("hasil")
+                gmbr.innerHTML = '<img src="image/monyet.jpeg" alt="" srcset="">'
+            }
+
+            else if (pilih == "singa") {
+                let gmbr = document.getElementById("hasil")
+                gmbr.innerHTML = '<img src="image/singa.jpeg" alt="" srcset="">'
+            }
+
+            else if (pilih == "anjing") {
+                let gmbr = document.getElementById("hasil")
+                gmbr.innerHTML = '<img src="image/anjing.jpeg" alt="" srcset="">'
+            }
+
+            else if (pilih == "kucing") {
+                let gmbr = document.getElementById("hasil")
+                gmbr.innerHTML = '<img src="image/kucing.jpeg" alt="" srcset="">'
+            }
+
+            else if (pilih == "kura_kura") {
+                let gmbr = document.getElementById("hasil")
+                gmbr.innerHTML = '<img src="image/kura_kura.jpeg" alt="" srcset="">'
+            }
+            else {
+                let gmbr = document.getElementById("hasil")
+                gmbr.innerHTML = 'pilhlah aku jadi pacarmu'
+            }
+        }
+    </script>
+</body>
+
+</html>
