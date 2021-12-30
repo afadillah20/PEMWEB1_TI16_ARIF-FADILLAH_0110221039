@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soal4 Menghitung jumlah dua Bilangan</title>
+    <style>
+        .hasil{
+            border: 1px solid black;
+            border-radius: 2px;
+            width: 170px;
+            height: 20px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="number" id="angka1">
+    <br>
+    +
+    <br>
+    <input type="number" id="angka2" onchange="tambah()">
+    <br>
+    =
+    <br>
+    <div id="hasil" class="hasil"></div>
+
+    <script>
+        function tambah() {
+            let a1 = document.getElementById("angka1").value
+            let a2 = document.getElementById("angka2").value
+
+            let hsl = parseInt(a1) + parseInt(a2)
+            document.getElementById("hasil").innerHTML = hsl
+        }
+
+    </script>
+</body>
+
+</html>
